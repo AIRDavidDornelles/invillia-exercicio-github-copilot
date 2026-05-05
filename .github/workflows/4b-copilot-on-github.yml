@@ -121,7 +121,7 @@ jobs:
 
       - name: Build message - step results
         id: build-message-step-results
-        uses: skills/action-text-variables@v1
+        uses: skills/action-text-variables@v4
         with:
           template-file: skills-response-templates/step-feedback/step-results.md
           template-vars: '{
