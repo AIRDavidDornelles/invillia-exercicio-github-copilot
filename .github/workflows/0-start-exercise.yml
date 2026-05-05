@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Disable all workflows
         run: |
@@ -42,7 +42,7 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Configure Git user
         run: |
@@ -98,10 +98,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Get response templates
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: Copilot-Workshop-Invillia/response-templates
           path: skills-response-templates
@@ -141,10 +141,10 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Get response templates
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: Copilot-Workshop-Invillia/response-templates
           path: skills-response-templates
